@@ -34,6 +34,8 @@ export default function MealsDetailsView() {
         }
     }
 
+    console.log(data)
+
     console.log(ingredients)
 
     if (isLoading) return <p>Cargando...</p>;
